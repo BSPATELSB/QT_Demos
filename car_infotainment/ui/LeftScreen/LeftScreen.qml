@@ -8,7 +8,7 @@ Rectangle {
         bottom: bottombar.top
         top: parent.top
     }
-    color: "white"
+    color: "#707070"
 
     Image {
         id: car
