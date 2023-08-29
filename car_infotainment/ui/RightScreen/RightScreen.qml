@@ -13,7 +13,7 @@ Rectangle {
 
     Plugin {
         id: mapPlugin
-        name: "osm"
+        name: "mapboxgl"
     }
 
     Map {
@@ -85,6 +85,19 @@ Rectangle {
             color: "black"
 
             text: systemHandler.userName
+        }
+
+        NavigationsearchBox{
+            id:searchBox
+
+            width: parent.width * 13
+            height: parent.height * 3
+
+            anchors{
+                left: lockIcon.left
+                top: lockIcon.bottom
+                topMargin: 20
+            }
         }
     }
 

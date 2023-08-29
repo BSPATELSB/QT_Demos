@@ -3,6 +3,7 @@
 
 #include <Controllers/system.h>
 #include <QQmlContext>
+#include <Controllers/hvachandler.h>
 
 
 
@@ -14,6 +15,8 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     System m_systemHandler;
+    HVACHandler m_driverHVACHandler;
+    HVACHandler m_passengerHVACHandler;
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));
@@ -26,6 +29,8 @@ int main(int argc, char *argv[])
 
     QQmlContext * context(engine.rootContext());
     context-> setContextProperty ("systemHandler",&m_systemHandler);
+    context-> setContextProperty ("driverHVAC",&m_driverHVACHandler);
+    context-> setContextProperty ("passengerHVAC",&m_passengerHVACHandler);
 
     return app.exec();
 }
