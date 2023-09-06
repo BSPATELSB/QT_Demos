@@ -46,4 +46,17 @@ Rectangle {
         }
         hvacController: passengerHVAC
     }
+
+    Image {
+        id: thirdPartyApp
+        anchors{
+            left: driverHVAC.right
+            leftMargin: 150
+            verticalCenter: parent.verticalCenter
+        }
+        height: parent.height * .85
+        fillMode: Image.PreserveAspectFit
+        source: "qrc:/ui/assets/thirdParty.png"
+
+    }
 }

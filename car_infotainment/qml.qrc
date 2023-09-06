@@ -11,5 +11,6 @@
         <file>ui/RightScreen/NavigationsearchBox.qml</file>
         <file>ui/assets/search_icon.png</file>
         <file>ui/BottomBar/HVACComponent.qml</file>
+        <file>ui/assets/thirdParty.png</file>
     </qresource>
 </RCC>
