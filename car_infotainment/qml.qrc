@@ -12,5 +12,10 @@
         <file>ui/assets/search_icon.png</file>
         <file>ui/BottomBar/HVACComponent.qml</file>
         <file>ui/assets/thirdParty.png</file>
+        <file>ui/assets/play.png</file>
+        <file>ui/assets/app.png</file>
+        <file>ui/assets/youtube.png</file>
+        <file>ui/assets/spotify.png</file>
+        <file>ui/assets/radio.png</file>
     </qresource>
 </RCC>

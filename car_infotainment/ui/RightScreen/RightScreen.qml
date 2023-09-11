@@ -1,6 +1,7 @@
-import QtQuick 2.15
-import QtLocation 5.15
-import QtPositioning 5.15
+import QtQuick 2.0
+import QtLocation 5.3
+import QtPositioning 5.3
+import QtWebEngine 1.0
 
 Rectangle {
     id: rightScreen
@@ -103,4 +104,18 @@ Rectangle {
 
     color: "orange"
     width: parent.width * 2/3
+
+    WebEngineView {
+        anchors.fill: parent
+        url: "https://www.youtube.com/"
+        visible: false
+    }
+
+    WebEngineView {
+        anchors.fill: parent
+        url: "https://www.radioindia.in/"
+        visible: false
+    }
+
+
 }
