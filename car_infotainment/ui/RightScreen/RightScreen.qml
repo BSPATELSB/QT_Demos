@@ -113,8 +113,8 @@ Rectangle {
 
     WebEngineView {
         anchors.fill: parent
-        url: "https://www.radioindia.in/"
-        visible: false
+        url: "https://open.spotify.com/?"
+        visible: true
     }
 
 
