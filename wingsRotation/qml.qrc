@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>assets/metal.jpg</file>
+        <file>assets/fan.png</file>
+    </qresource>
+</RCC>
