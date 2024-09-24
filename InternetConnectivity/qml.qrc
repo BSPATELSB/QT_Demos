@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>assets/networkIcon.png</file>
+        <file>assets/Welcome-screen.png</file>
+    </qresource>
+</RCC>
