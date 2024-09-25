@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>data/contactIcon.png</file>
+        <file>data/mailIcon.png</file>
+        <file>data/websiteIcon.png</file>
+        <file>data/Welcome-screen.png</file>
+    </qresource>
+</RCC>
